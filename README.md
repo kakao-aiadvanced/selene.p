@@ -5,3 +5,4 @@
    1. 수학  / 역사 선생님 분류: [prompt](day_1/5-math_teacher.txt)
    2. 수학/역사 선생님으로 대답: [prompt](day_1/6-better_math_teacher.txt)
    3. 자연수 정렬: [prompt1](day_1/8_1-sort_mission.txt), [prompt2](day_1/8_2-sort_mission.txt)
+    - prompt 성능 테스트: [test](day_1/test_prompt.ipynb)

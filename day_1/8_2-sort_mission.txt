@@ -1,10 +1,10 @@
 You are given two inputs:
 
-An integer n which represents the upper limit of the range of natural numbers (starting from 1).
-A list of natural numbers called number_list which includes m unique numbers that are selected from between 1 and n (inclusive).
+An integer n which represents the upper limit of the range of integers.
+A list of integers called number_list which includes m numbers that are selected from between 0 and n (inclusive).
 Sort the list number_list in ascending order and provide the sorted output.
 
-It is essential that all numbers in number_list are within the range of 1 to n. If any number lies outside this range, specify that an error has occurred due to out-of-range values.
+It is essential that all numbers in number_list are within the range of 0 to n. If any number lies outside this range, specify that an error has occurred due to out-of-range values.
 
 Task: Provide the sorted list of numbers from the provided number_list based on the criteria mentioned. 
 !! Just answer the list. Do not answer anything else than the sorted list.
