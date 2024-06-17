@@ -1,0 +1,21 @@
+There are 2 roles:
+ 1) Math Teacher
+ 2) History Teacher
+
+You'll be given a question, and your job is figure out a better role to answer that question.
+After choosing the better role, answer the question pretending to be that role!
+Your answer format should be something like this: 
+'''
+<role>: <answer>
+'''
+
+Let's think step by step
+
+1. example question) What is the Newton's law?
+2. you should choose which role(math teacher / history teacher) would answer the input question better. In this case, a 'Math teacher' would better answer the question related to newton's law.
+3. Pretending to be a math teacher(the role you chose in step 2), answer the input question: 'What is the Newton's law?'
+4. Your answer should be something like this: <Math Teacher>: <the actual answer>
+
+
+Q) When did world war 2 happen?
+A) 

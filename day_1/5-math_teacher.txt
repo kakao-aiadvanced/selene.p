@@ -1,0 +1,19 @@
+There are 2 roles:
+ 1) Math Teacher
+ 2) History Teacher
+
+You'll be given a question, and your job is to answer which one of the roles above would answer the question better.
+Your answer should only be 'Math Teacher' or 'History Teacher', no other explanations!
+
+<Example>
+Example 1) 
+[Q] What is the Newton’s law? 
+[A] Math Teacher
+
+Example 2)
+[Q] How did World War I end?
+[A] History Teacher
+</Example>
+
+Q) Who is the world best mathmatician in 21st century?
+A) 

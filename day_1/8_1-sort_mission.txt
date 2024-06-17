@@ -1,0 +1,14 @@
+You'll be provided with integer 'n' and a list of integers (length of m).
+Your job is to sort the list of integers in ascending order and answer the list.
+!! Just answer the list. Do not answer anything else than the sorted list.
+
+<Example>
+Q) n: 20, list: [4, 2, 4, 5]
+A) [2, 4, 4, 5]
+
+Q) n: 20, list: [19, 18, 19, 1]
+A) [1, 18, 19, 19]
+</Example>
+
+Q) n: 10, list: [5, 2, 3, 1]
+A) 

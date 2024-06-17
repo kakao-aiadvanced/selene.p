@@ -1,0 +1,18 @@
+You are given two inputs:
+
+An integer n which represents the upper limit of the range of natural numbers (starting from 1).
+A list of natural numbers called number_list which includes m unique numbers that are selected from between 1 and n (inclusive).
+Sort the list number_list in ascending order and provide the sorted output.
+
+It is essential that all numbers in number_list are within the range of 1 to n. If any number lies outside this range, specify that an error has occurred due to out-of-range values.
+
+Task: Provide the sorted list of numbers from the provided number_list based on the criteria mentioned. 
+!! Just answer the list. Do not answer anything else than the sorted list.
+
+Examples for Execution:
+
+For the input n = 10 and number_list = [3, 1, 8, 7], provide the sorted result.
+For the input n = 5 and number_list = [6, 2, 4], indicate that there is an error because the number 6 is not within the range 1 to 5.
+
+Q) n=10, number_list=[3, 2, 4, 1]
+A) 
