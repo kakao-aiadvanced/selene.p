@@ -164,7 +164,7 @@ def main():
             return "useful"
         else:
             print("---DECISION: ANSWER INCLUDES HALLUCINATION---")
-            return "useful"
+            return "hallucinated"
 
     # RAG 에이전트 그래프 구성
     workflow = StateGraph(GraphState)
@@ -233,6 +233,7 @@ def main():
         an answer is grounded in / supported by a set of facts. Give a binary 'yes' or 'no' score to indicate
         whether the answer is grounded in / supported by a set of facts. If the answer is grounded in / supported by
         the facts given below, then give 'yes'. If it's not grounded in / supported by the facts, give 'no'.
+        DO not be so strict.
         Provide the binary score as a JSON with a single key 'score' and no preamble or explanation. <|eot_id|><|start_header_id|>user<|end_header_id|>
         Here are the facts:
         \n ------- \n
